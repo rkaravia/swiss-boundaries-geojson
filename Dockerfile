@@ -7,7 +7,9 @@ RUN apt-get -qq update && apt-get -y install \
     curl \
     gdal-bin \
     jq \
+    moreutils \
+    uchardet \
     unzip \
  && rm -rf /var/lib/apt/lists/*
 
-COPY docker-entrypoint.sh /usr/local/bin/
+COPY *.sh /usr/local/bin/

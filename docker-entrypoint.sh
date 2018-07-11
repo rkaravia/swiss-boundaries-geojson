@@ -15,6 +15,9 @@ fi
 mkdir -p $GEOJSON_OUTPUT_PATH
 unzip -o -d $OUTPUT_PATH $INPUT_FILE
 
+# Convert all text files to UTF-8
+find $OUTPUT_PATH -type f -exec grep -Iq . {} \; -and -print | xargs to-utf-8.sh
+
 mv $OUTPUT_PATH/*.zip .
 unzip -o *LV95*.zip
 
