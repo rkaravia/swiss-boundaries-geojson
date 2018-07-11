@@ -46,7 +46,7 @@ cd $OUTPUT_PATH
     echo "<h1>$TITLE<h1>"
     echo "<h2>Metadata</h2>"
     echo "<pre>"
-    echo "Source: <a href='$DATA_URL'>$DATA_URL</a>"
+    echo "Source: <a href='$DATA_URL'>Swiss Federal Office of Topography</a>"
     echo "md5sum: $MD5SUM"
     echo "Last successful conversion to GeoJSON: $TIMESTAMP"
     echo "</pre>"
