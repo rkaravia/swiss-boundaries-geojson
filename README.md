@@ -1,11 +1,9 @@
-[![Build Status](https://travis-ci.org/rzoller/swissBOUNDARIES3D.svg?branch=master)](https://travis-ci.org/rzoller/swissBOUNDARIES3D)
-
-# swissBOUNDARIES3D
+# swiss-boundaries-geojson
 
 This code converts the swissBOUNDARIES3D dataset to
-[RFC 7946 GeoJSON](https://tools.ietf.org/html/rfc7946)
+[GeoJSON](https://tools.ietf.org/html/rfc7946)
 and publishes the result to
-https://rzoller.ch/swissBOUNDARIES3D/.
+https://labs.karavia.ch/swiss-boundaries-geojson/.
 
 swissBOUNDARIES3D contains all
 [national](https://opendata.swiss/en/dataset/swissboundaries3d-landesgrenzen),
@@ -22,6 +20,7 @@ The GeoJSON format is highly interoperable, meaning there are
 that can read and write it.
 
 ## License
+
 This code is licensed under the MIT license, see the LICENSE file.
 
 Please note that the swissBOUNDARIES3D dataset has its own license.

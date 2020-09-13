@@ -1,0 +1,21 @@
+{
+  "name": "swiss-boundaries-geojson",
+  "version": "1.0.0",
+  "description": "Convert the swissBOUNDARIES3D dataset to GeoJSON",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "author": "Roman Karavia",
+  "license": "MIT",
+  "dependencies": {
+    "@turf/bbox": "^6.0.1",
+    "@turf/meta": "^6.0.2",
+    "axios": "^0.19.2",
+    "json-stringify-pretty-compact": "^2.0.0",
+    "shapefile": "^0.6.6",
+    "shelljs": "^0.8.4",
+    "swissgrid": "^1.0.5",
+    "unzipper": "^0.10.11"
+  }
+}
